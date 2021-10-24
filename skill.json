@@ -1,0 +1,21 @@
+{
+  "name": "Sumanjay Torrent Proxy Skill",
+  "skillname": "skill-sumanjay-torrent-proxy",
+  "authorname": "JarbasSkills",
+  "foldername": "",
+  "url": "https://github.com/JarbasSkills/skill-sumanjay-torrent-proxy",
+  "branch": "dev",
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "platforms": [
+    "arm",
+    "arm64",
+    "i386",
+    "x86_64",
+    "ia64"
+  ],
+  "examples": [
+    "play the lord of the rings return of the king extended edition"
+  ]
+}
