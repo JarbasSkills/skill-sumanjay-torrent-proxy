@@ -35,6 +35,8 @@ class SumanjayTorrentProxySkill(OVOSCommonPlaybackSkill):
     def search_sumanjay(query):
         url = "https://api.sumanjay.cf/torrent/"
         results = requests.get(url, params={"query": query}).json()
+        if not isinstance(results, list):
+            return
         results = sorted(results, key=lambda k: k["seeder"], reverse=True)
         for r in results:
             if r["nsfw"] or "porn" in r["type"].lower():
